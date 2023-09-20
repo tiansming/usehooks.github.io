@@ -29,7 +29,6 @@ export default defineConfig({
         { title: '博客', link: '/blog' },
         { title: 'hooks列表', link: '/components' },
       ],
-      'en-US': [{ title: 'Blog', link: '/en/blog' }],
     },
     menus: {
       '/': [
