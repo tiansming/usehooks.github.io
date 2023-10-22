@@ -9,7 +9,7 @@
 import { defineConfig } from 'dumi';
 import { menus } from './config/hooks';
 
-const repo = 'useHooks'; // 项目名(也就是你的仓库名)
+const repo = 'usehooks.github.io'; // 项目名(也就是你的仓库名)
 export default defineConfig({
   outputPath: 'docs-dist',
   base: process.env.NODE_ENV === 'production' ? `/${repo}/` : '/',
