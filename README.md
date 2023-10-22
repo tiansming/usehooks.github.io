@@ -3,7 +3,7 @@
 [![NPM version](https://img.shields.io/npm/v/hooks.svg?style=flat)](https://npmjs.org/package/hooks)
 [![NPM downloads](http://img.shields.io/npm/dm/hooks.svg?style=flat)](https://npmjs.org/package/hooks)
 
-一个自定义hooks库
+一个自定义 hooks 库
 
 ## Usage
 
@@ -37,4 +37,5 @@ $ yarn run doctor
 
 ## LICENSE
 
-MIT
+MIT ##访问地址
+https://tiansming.github.io/usehooks.github.io/

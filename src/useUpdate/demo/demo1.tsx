@@ -11,8 +11,8 @@
  * desc: 强制组件重新渲染。
  */
 
-import { useUpdate } from 'encode-hooks';
 import React from 'react';
+import { useUpdate } from '../../index';
 
 export default () => {
   const update = useUpdate();
