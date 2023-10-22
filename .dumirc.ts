@@ -8,8 +8,12 @@
  */
 import { defineConfig } from 'dumi';
 import { menus } from './config/hooks';
+
+const repo = 'useHooks'; // 项目名(也就是你的仓库名)
 export default defineConfig({
   outputPath: 'docs-dist',
+  base: process.env.NODE_ENV === 'production' ? `/${repo}/` : '/',
+  publicPath: process.env.NODE_ENV === 'production' ? `/${repo}/` : '/',
   themeConfig: {
     name: 'hooks-组件库',
     themeConfig: {
