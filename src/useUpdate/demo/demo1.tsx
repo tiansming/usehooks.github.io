@@ -21,7 +21,7 @@ export default () => {
     <>
       <div>Time: {Date.now()}</div>
       <button type="button" onClick={update} style={{ marginTop: 8 }}>
-        update重新构建测试
+        update重新
       </button>
     </>
   );
